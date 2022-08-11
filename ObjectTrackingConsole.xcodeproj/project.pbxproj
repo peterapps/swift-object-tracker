@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D09F2D6728988D2900F99AAC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09F2D6628988D2900F99AAC /* main.swift */; };
+		D09F2D6E2898CCFE00F99AAC /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09F2D6D2898CCFE00F99AAC /* extensions.swift */; };
+		D09F2D702898CEE600F99AAC /* VideoReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09F2D6F2898CEE600F99AAC /* VideoReader.swift */; };
+		D09F2D722898CF7000F99AAC /* VideoWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09F2D712898CF7000F99AAC /* VideoWriter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		D09F2D6328988D2900F99AAC /* ObjectTrackingConsole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectTrackingConsole; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09F2D6628988D2900F99AAC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D09F2D6D2898CCFE00F99AAC /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		D09F2D6F2898CEE600F99AAC /* VideoReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoReader.swift; sourceTree = "<group>"; };
+		D09F2D712898CF7000F99AAC /* VideoWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWriter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				D09F2D6628988D2900F99AAC /* main.swift */,
+				D09F2D6F2898CEE600F99AAC /* VideoReader.swift */,
+				D09F2D712898CF7000F99AAC /* VideoWriter.swift */,
+				D09F2D6D2898CCFE00F99AAC /* extensions.swift */,
 			);
 			path = ObjectTrackingConsole;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09F2D722898CF7000F99AAC /* VideoWriter.swift in Sources */,
+				D09F2D6E2898CCFE00F99AAC /* extensions.swift in Sources */,
+				D09F2D702898CEE600F99AAC /* VideoReader.swift in Sources */,
 				D09F2D6728988D2900F99AAC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
